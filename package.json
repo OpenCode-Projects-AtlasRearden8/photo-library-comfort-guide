@@ -1,0 +1,30 @@
+{
+  "name": "photo-library-comfort-guide",
+  "version": "1.0.0",
+  "description": "A warm, plain-English manual for rescuing your camera roll: the monthly one-hour triage, duplicates, albums, scans, cloud-vs-drive privacy, sensitive photos, prints and gifts, and retiring old phones. Markdown docs plus a static HTML site built with a dependency-free script.",
+  "main": "scripts/build.js",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "test": "node --test tests/markdown.test.js tests/content.test.js tests/build.test.js tests/goal.test.js",
+    "check": "npm run build && npm test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "photos",
+    "digital-decluttering",
+    "camera-roll",
+    "backup",
+    "privacy",
+    "scanning",
+    "photo-books",
+    "beginner-friendly"
+  ],
+  "author": "Asdale Dynamics, LLC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dylanasdale/photo-library-comfort-guide"
+  }
+}
